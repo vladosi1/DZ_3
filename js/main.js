@@ -10,11 +10,11 @@ document.write(`Приветствую тебя ${nameHuman}, <br> ${age} лет
 
 // task 2
 
-const number = [1, 2, 3, 4, 5];
+const number = 12345;
 
+const digits = number.toString().split('');
 
-console.log(number.join(' ')); // 1 2 3 4 5
-document.write(number.join(' '));
+console.log(digits.join(' ')); //1 2 3 4 5
 
 
 
